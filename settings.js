@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~02dlTJJA#9dQnQTOBu-eIPaNvtTSAYnaZq_m81E3AOXRotgoyYhc' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -46,7 +46,7 @@ global.author = process.env.STICKER_AUTHOR_NAME || "Hector"
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
-global.dbToken = process.env.GITHUB_TOKEN || "";
+global.dbToken = process.env.GITHUB_TOKEN || "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";
 
 
 //-----------------[ CONTEXT LINK ]--------------------//
